@@ -1,0 +1,24 @@
+<html metal:use-macro="load: base.pt">
+<div metal:fill-slot="content">
+
+<!-- Main component for a primary marketing message or call to action -->
+<div class="well">
+<h1>Web-PBB (PBB)</h1>
+<p><img src="/static/img/logo.png" class="img-float img-thumbnail"/>
+Selamat datang di aplikasi <code>Titik Reklame</code>, Aplikasi ini menggunakan
+<a href="http://pylonsproject.org/">Pyramid</a> Web Framework dan 
+<a href="http://postgresql.org/">Postgresql</a> Database.</p>
+
+<p>Aplikasi <code>Web PBB</code> ini digunakan untuk mengelola Pajak Bumi dan bangunan yang digunakan dengan mempunyai fitur utama :
+<br>
+<ul>
+   <li> Pelayanan</li>
+   <li> SPPT</li>
+</ul>
+</p>
+<p>Dalam hal ini aplikasi hanya memasukan serta mengelola data Pelayanan PBB
+</p>
+</div><!--well-->
+
+</div>
+</html>
